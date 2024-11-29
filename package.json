@@ -18,5 +18,8 @@
     "modules"
   ],
   "author": "Emanuele Sguerzo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }

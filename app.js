@@ -5,6 +5,7 @@
 //BONUS IN ES6
 import fullNameObj from "./modules/names.js";
 import hobbiesArray from "./modules/hobbies.js";
+import chalk from "chalk";
 
 function person() {
     let result = {
@@ -14,4 +15,4 @@ function person() {
     return result;
 }
     
-console.log(person());
+console.log(chalk.bgBlue(JSON.stringify(person())));
