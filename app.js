@@ -2,17 +2,24 @@
 // const fullNameFunction = require('./modules/names')
 // const hobbiesFunction = require('./modules/hobbies')
 
+// function person() {
+//     let result = {
+//         fullName: fullNameObj('Mario', 'Mario'),
+//         hobbies: hobbiesArray('Idraulica', 'Collezionismo', 'Salvataggi'),
+//     }
+//     return result;
+// }
+
 //BONUS IN ES6
 import fullNameObj from "./modules/names.js";
 import hobbiesArray from "./modules/hobbies.js";
 import chalk from "chalk";
 
-function person() {
-    let result = {
+const person = () => {
+    return {
         fullName: fullNameObj('Mario', 'Mario'),
         hobbies: hobbiesArray('Idraulica', 'Collezionismo', 'Salvataggi'),
     }
-    return result;
 }
     
 console.log(chalk.bgBlue(JSON.stringify(person())));
