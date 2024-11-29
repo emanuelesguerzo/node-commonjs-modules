@@ -1,4 +1,3 @@
-
 function fullNameObj(firstName, lastName) {
     let personFullName = {
         firstName,
