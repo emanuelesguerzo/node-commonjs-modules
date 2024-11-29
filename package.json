@@ -1,0 +1,21 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "description": "Intro to Node Modules",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-commonjs-modules"
+  },
+  "keywords": [
+    "intro",
+    "node",
+    "modules"
+  ],
+  "author": "Emanuele Sguerzo",
+  "license": "ISC"
+}
