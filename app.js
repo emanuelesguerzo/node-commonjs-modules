@@ -4,11 +4,13 @@
 
 // function person() {
 //     let result = {
-//         fullName: fullNameObj('Mario', 'Mario'),
-//         hobbies: hobbiesArray('Idraulica', 'Collezionismo', 'Salvataggi'),
+//         fullName: fullNameFunction.fullNameObj('Mario', 'Mario'),
+//         hobbies: hobbiesFunction.hobbiesArray('Idraulica', 'Collezionismo', 'Salvataggi'),
 //     }
 //     return result;
 // }
+
+// console.log(person())
 
 //BONUS IN ES6
 import fullNameObj from "./modules/names.js";
@@ -22,4 +24,16 @@ const person = () => {
     }
 }
     
-console.log(chalk.bgBlue(JSON.stringify(person())));
+console.log(chalk.bgBlue(JSON.stringify(person(), null, 2)));
+
+//CLASSROOM REFACTORING
+// import getFullName from "./modules/names.js";
+// import getHobbies from "./modules/hobbies.js";
+// import chalk from "chalk";
+
+// const person = () => {
+//     return {
+//         fullName: getFullName('Mario', 'Mario'),
+//         ...getHobbies('Idraulica', 'Collezionismo', 'Salvataggi'),
+//     }
+// }

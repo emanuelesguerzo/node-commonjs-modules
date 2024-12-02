@@ -6,9 +6,7 @@
 //     return hobbies;
 // }
 
-// module.exports = {
-//     hobbies: hobbiesArray,
-// }
+// module.exports = hobbiesArray;
 
 //BONUS IN ES6
 const hobbiesArray = (hobbyOne, hobbyTwo, hobbyThree) => {
@@ -19,3 +17,7 @@ const hobbiesArray = (hobbyOne, hobbyTwo, hobbyThree) => {
 
 export default hobbiesArray;
 
+//CLASSROOM REFACTORING
+// const getHobbies = (hobbyOne, hobbyTwo, hobbyThree) => ({hobbies: [hobbyOne, hobbyTwo, hobbyThree]});
+
+// export default getHobbies;

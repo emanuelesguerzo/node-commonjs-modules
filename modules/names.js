@@ -7,9 +7,7 @@
 //     return personFullName;
 // }
 
-// module.exports = {
-//     fullName: fullNameObj,
-// }
+// module.exports = fullNameObj;
 
 //BONUS IN ES6
 const fullNameObj = (firstName, lastName) => {
@@ -21,4 +19,7 @@ const fullNameObj = (firstName, lastName) => {
 
 export default fullNameObj;
 
+//CLASSROOM REFACTORING
+// const getFullName = (firstName, lastName) => ({firstName, lastName });
 
+// export default getFullName;
